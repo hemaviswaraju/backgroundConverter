@@ -1,7 +1,7 @@
 let modebtn=document.querySelector(".mode");
 let mode="light";
 let body=document.querySelector("body");
-modebtn.addEventListener("mouseover",()=>{
+modebtn.addEventListener("onclick",()=>{
     if(mode=="light"){
         mode="dark";
         body.classList.add("dark");
